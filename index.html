@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/dist/style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/dist/style.css" />
 
-  <title>Frontend Mentor | Officelite coming soon site</title>
-</head>
-<body>
+    <title>Frontend Mentor | Officelite coming soon site</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="flex flex-jc-c">
+          <a href="index.html" class="header__logo">
+            <img src="images/shared/logo.svg" alt="Officelite Logo" />
+          </a>
+        </nav>
+      </header>
 
-  <header class="header">
-    <nav class="flex flex-jc-c">
-      <a href="index.html" class="header__logo">
-        <img src="images/shared/logo.svg" alt="Officelite Logo">
-      </a>
-    </nav>
-  </header>
+      <div class="hero">
+        <img
+          src="/images/home/illustration-charts.svg"
+          alt="Illustration of charts"
+        />
+        <h1 class="hero-heading">
+          A simple solution to complex tasks is coming soon
+        </h1>
+        <p>
+          Say goodbye to inefficient juggling of multiple apps teams, and
+          projects. Officelite is the new collaboration platform built with an
+          intuitive interface to improve productivity.
+        </p>
+        <a class="button" href="#">Get Started</a>
+      </div>
+    </div>
 
-  <!-- 
-
-  A simple solution to complex tasks is coming soon
-
-  Say goodbye to inefficient juggling of multiple apps, teams, and projects. Officelite is the new 
-  collaboration platform built with an intuitive interface to improve productivity.
-
-  Get Started
+    <!-- 
 
   Basic
   Free
@@ -67,6 +85,6 @@
 
 -->
 
-  <script src="app/js/script.js"></script>
-</body>
+    <script src="app/js/script.js"></script>
+  </body>
 </html>

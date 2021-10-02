@@ -11,10 +11,12 @@ body {
    margin: 0;
    padding: 0;
    font-family: 'Kumbh Sans', sans-serif;
+   font-weight: 400;
    font-size: $font-sm;
    color: $lightGrey;
    line-height: 1.625;
-   background: url(/images/home/bg-pattern-header.svg) no-repeat;
+   // background: linear-gradient($white 80%, $darkGrey 20%);
+   background: $white url(/images/home/bg-pattern-header.svg) no-repeat;
    background-position: 50% -10.625rem;
    background-size: 150%;
 }
@@ -33,13 +35,6 @@ h2 {
    color: $darkGrey;
 }
 
-.button {
-   color: $white;
-   padding: 1.2rem 2.5rem;
-   border-radius: 50px;
-   background-color: $brightBlue;
-}
-
 // Flexbox
 .flex {
    display: flex;
@@ -55,4 +50,14 @@ h2 {
    &-ai-c {
       align-items: center;
    }
+}
+
+// Buttons
+button, .button {
+   padding: 1.125rem 2.5rem;
+   background-color: $brightBlue;
+   border: 0;
+   border-radius: 50px;
+   cursor: pointer;
+   font-weight: 700;
 }

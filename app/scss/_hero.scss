@@ -15,8 +15,15 @@
       margin-bottom: 3.125rem;
    }
 
-   .button {
+   &__cta {
+      font-size: $font-sm;
+      color: $white;
       box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+      transition: 0.3s;
+   }
+
+   &__cta:hover {
+      background-color: $lightBlue;
    }
 
 }

@@ -1,4 +1,6 @@
 footer, .footer {
    padding: 10rem 0;
-   background: $darkGrey url(/images/home/bg-pattern-header.svg) no-repeat;;
+   background: $darkGrey url(/images/home/bg-pattern-footer.svg) no-repeat;
+   background-position: 50% -2rem;
+   background-size: 180%;
 }
